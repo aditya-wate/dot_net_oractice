@@ -1,0 +1,87 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>TestApp</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>TestApp</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="TestApp.csproj" File="TestApp.csproj" ReplaceParameters="true">
+      <Folder Name="App_Data" TargetFolderName="App_Data">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Movies.mdf">Movies.mdf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Movies_log.LDF">Movies_log.LDF</ProjectItem>
+      </Folder>
+      <Folder Name="Content" TargetFolderName="Content">
+        <Folder Name="App_LocalResources" TargetFolderName="App_LocalResources">
+          <ProjectItem ReplaceParameters="false" TargetFileName="thea.jpg">thea.jpg</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Site.css">Site.css</ProjectItem>
+      </Folder>
+      <Folder Name="Controllers" TargetFolderName="Controllers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AccountController.cs">AccountController.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="HomeController.cs">HomeController.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MoviesController.cs">MoviesController.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax.cs">Global.asax.cs</ProjectItem>
+      <Folder Name="Models" TargetFolderName="Models">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AccountModels.cs">AccountModels.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Model1.edmx">Model1.edmx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Model1.Designer.cs">Model1.Designer.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Scripts" TargetFolderName="Scripts">
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.4.1-vsdoc.js">jquery-1.4.1-vsdoc.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.4.1.js">jquery-1.4.1.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.4.1.min.js">jquery-1.4.1.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate-vsdoc.js">jquery.validate-vsdoc.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.js">jquery.validate.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.min.js">jquery.validate.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MicrosoftAjax.debug.js">MicrosoftAjax.debug.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MicrosoftAjax.js">MicrosoftAjax.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MicrosoftMvcAjax.debug.js">MicrosoftMvcAjax.debug.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MicrosoftMvcAjax.js">MicrosoftMvcAjax.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MicrosoftMvcValidation.debug.js">MicrosoftMvcValidation.debug.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MicrosoftMvcValidation.js">MicrosoftMvcValidation.js</ProjectItem>
+      </Folder>
+      <Folder Name="Views" TargetFolderName="Views">
+        <Folder Name="Account" TargetFolderName="Account">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ChangePassword.aspx">ChangePassword.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ChangePasswordSuccess.aspx">ChangePasswordSuccess.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="LogOn.aspx">LogOn.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Register.aspx">Register.aspx</ProjectItem>
+        </Folder>
+        <Folder Name="Home" TargetFolderName="Home">
+          <ProjectItem ReplaceParameters="true" TargetFileName="About.aspx">About.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Index.aspx">Index.aspx</ProjectItem>
+        </Folder>
+        <Folder Name="Movies" TargetFolderName="Movies">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Create.aspx">Create.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Delete.aspx">Delete.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Details.aspx">Details.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Edit.aspx">Edit.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Index.aspx">Index.aspx</ProjectItem>
+        </Folder>
+        <Folder Name="Shared" TargetFolderName="Shared">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Error.aspx">Error.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="LogOnUserControl.ascx">LogOnUserControl.ascx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Site.Master">Site.Master</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Release.config">Web.Release.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

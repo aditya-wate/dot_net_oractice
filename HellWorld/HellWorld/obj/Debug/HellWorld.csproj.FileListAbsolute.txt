@@ -1,0 +1,6 @@
+c:\users\aditya.wate\documents\visual studio 2013\Projects\HellWorld\HellWorld\bin\Debug\HellWorld.exe.config
+c:\users\aditya.wate\documents\visual studio 2013\Projects\HellWorld\HellWorld\bin\Debug\HellWorld.exe
+c:\users\aditya.wate\documents\visual studio 2013\Projects\HellWorld\HellWorld\bin\Debug\HellWorld.pdb
+c:\users\aditya.wate\documents\visual studio 2013\Projects\HellWorld\HellWorld\obj\Debug\HellWorld.csprojResolveAssemblyReference.cache
+c:\users\aditya.wate\documents\visual studio 2013\Projects\HellWorld\HellWorld\obj\Debug\HellWorld.exe
+c:\users\aditya.wate\documents\visual studio 2013\Projects\HellWorld\HellWorld\obj\Debug\HellWorld.pdb

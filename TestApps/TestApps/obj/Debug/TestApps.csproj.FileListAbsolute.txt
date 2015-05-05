@@ -1,0 +1,6 @@
+c:\users\aditya.wate\documents\visual studio 2013\Projects\TestApps\TestApps\bin\Debug\TestApps.exe.config
+c:\users\aditya.wate\documents\visual studio 2013\Projects\TestApps\TestApps\bin\Debug\TestApps.exe
+c:\users\aditya.wate\documents\visual studio 2013\Projects\TestApps\TestApps\bin\Debug\TestApps.pdb
+c:\users\aditya.wate\documents\visual studio 2013\Projects\TestApps\TestApps\obj\Debug\TestApps.csprojResolveAssemblyReference.cache
+c:\users\aditya.wate\documents\visual studio 2013\Projects\TestApps\TestApps\obj\Debug\TestApps.exe
+c:\users\aditya.wate\documents\visual studio 2013\Projects\TestApps\TestApps\obj\Debug\TestApps.pdb
